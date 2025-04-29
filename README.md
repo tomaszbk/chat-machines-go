@@ -3,7 +3,7 @@
 [![codecov](https://codecov.io/gh/gin-gonic/gin/branch/master/graph/badge.svg)](https://codecov.io/gh/gin-gonic/gin)
 [![Go Report Card](https://goreportcard.com/badge/github.com/tomaszbk/chat-machines-go)](https://goreportcard.com/report/github.com/tomaszbk/chat-machines-go)
 [![Go Reference](https://pkg.go.dev/badge/github.com/tomaszbk/chat-machines-go?status.svg)](https://pkg.go.dev/github.com/tomaszbk/chat-machines-go?tab=doc)
-[![Release](https://img.shields.io/github/release/chat-machines-go/gin.svg?style=flat-square)](https://github.com/tomaszbk/chat-machines-go/releases)
+[![Release](https://img.shields.io/github/release/chat-machines-go.svg?style=flat-square)](https://github.com/tomaszbk/chat-machines-go/releases)
 
 chatmachine is a web framework written in [Go](https://go.dev/).
 Small, simple library for building chatbots using state machines, that can be integrated with REST APIs, discord, whatsapp, telegram, etc.
