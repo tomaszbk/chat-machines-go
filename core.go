@@ -43,11 +43,11 @@ func (s *SessionState) End() {
 
 // ChatMachine is a generic state machine managing sessions.
 type ChatMachine struct {
-	sessions        map[string]*SessionState
-	startState      State
-	globalOnEnter   func(*SessionState)
-	globalOnUpdate  func(*SessionState)
-	globalOnExit    func(*SessionState)
+	sessions       map[string]*SessionState
+	startState     State
+	globalOnEnter  func(*SessionState)
+	globalOnUpdate func(*SessionState)
+	globalOnExit   func(*SessionState)
 }
 
 // NewChatMachine creates a new ChatMachine with the given start state.
